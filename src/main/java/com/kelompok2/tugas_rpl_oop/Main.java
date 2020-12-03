@@ -75,38 +75,38 @@ public class Main {
                     System.out.println("Daftar Profesor");
                     if (!daftarProfessor.isEmpty()) {
                         for (Professor e : daftarProfessor) {
-                            System.out.printf("Nama:\t\t %s\n", e.getName());
-                            System.out.printf("Password:\t %s\n", e.getPassword());
-                            System.out.printf("Email:\t\t %s\n", e.getEmail());
-                            System.out.printf("Alamat:\t\t %s\n", e.getAddress());
-                            System.out.printf("Telepon:\t %s\n", e.getContactNumber());
-                            System.out.printf("ID Staf:\t %s\n", e.getStaffId());
-                            System.out.printf("Gaji:\t\t %s\n", e.getSalary());
-                            System.out.printf("Departemen:\t %s\n", e.getDepartment());
+                            System.out.printf("Nama\t\t: %s\n", e.getName());
+                            System.out.printf("Password\t: %s\n", e.getPassword());
+                            System.out.printf("Email\t\t: %s\n", e.getEmail());
+                            System.out.printf("Alamat\t\t: %s\n", e.getAddress());
+                            System.out.printf("Telepon\t: %s\n", e.getContactNumber());
+                            System.out.printf("ID Staf\t: %s\n", e.getStaffId());
+                            System.out.printf("Gaji\t\t: %s\n", e.getSalary());
+                            System.out.printf("Departemen\t: %s\n", e.getDepartment());
                             System.out.println();
                         }
                     } else {
-                        System.out.println("");
+                        System.out.println();
                         System.out.println("Tidak Ada Data!");
-                        System.out.println("");
+                        System.out.println();
                     }
                     break;
                 case "4":
                     System.out.println("Daftar Siswa");
-                    if (!daftarProfessor.isEmpty()) {
+                    if (!daftarStudent.isEmpty()) {
                         for (Student e : daftarStudent) {
-                            System.out.printf("Nama:\t\t %s\n", e.getName());
-                            System.out.printf("Password:\t %s\n", e.getPassword());
-                            System.out.printf("Email:\t\t %s\n", e.getEmail());
-                            System.out.printf("Alamat:\t\t %s\n", e.getAddress());
-                            System.out.printf("Telepon:\t %s\n", e.getContactNumber());
-                            System.out.printf("ID Siswa:\t %s\n", e.getStdId());
+                            System.out.printf("Nama\t\t: %s\n", e.getName());
+                            System.out.printf("Password\t: %s\n", e.getPassword());
+                            System.out.printf("Email\t\t: %s\n", e.getEmail());
+                            System.out.printf("Alamat\t\t: %s\n", e.getAddress());
+                            System.out.printf("Telepon\t: %s\n", e.getContactNumber());
+                            System.out.printf("ID Siswa\t: %s\n", e.getStdId());
                             System.out.println();
                         }
                     } else {
-                        System.out.println("");
+                        System.out.println();
                         System.out.println("Tidak Ada Data!");
-                        System.out.println("");
+                        System.out.println();
                     }
                     break;
                 default:
