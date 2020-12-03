@@ -16,7 +16,7 @@ public class Student extends User {
         this.stdId = stdId;
     }
 
-    public Student(String name, String password, String email, String address, String contactNumber, int stdId) {
+    public Student(String name, String password, String email, String address, int contactNumber, int stdId) {
         super(name, password, email, address, contactNumber);
         this.stdId = stdId;
     }
