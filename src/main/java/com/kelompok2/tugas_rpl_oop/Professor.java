@@ -20,7 +20,7 @@ public class Professor extends User {
         this.department = department;
     }
 
-    public Professor(String name, String password, String email, String address, String contactNumber, int staffId, float salary, String department) {
+    public Professor(String name, String password, String email, String address, int contactNumber, int staffId, float salary, String department) {
         super(name, password, email, address, contactNumber);
         this.staffId = staffId;
         this.salary = salary;

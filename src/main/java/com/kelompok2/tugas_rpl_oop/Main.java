@@ -14,8 +14,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
         List<Professor> daftarProfessor = new LinkedList<>();
         List<Student> daftarStudent = new LinkedList<>();
-        String name, password, email, address, contactNumber, department;
-        int staffId, stdId;
+        String name, password, email, address, department;
+        int staffId, stdId, contactNumber;
         float salary;
         boolean isContinue = true;
 
@@ -42,7 +42,7 @@ public class Main {
                     System.out.print("Alamat: ");
                     address = in.nextLine();
                     System.out.print("Telepon: ");
-                    contactNumber = in.nextLine();
+                    contactNumber = Integer.parseInt(in.nextLine());
                     System.out.print("ID Staf: ");
                     staffId = Integer.parseInt(in.nextLine());
                     System.out.print("Gaji: ");
@@ -64,7 +64,7 @@ public class Main {
                     System.out.print("Alamat: ");
                     address = in.nextLine();
                     System.out.print("Telepon: ");
-                    contactNumber = in.nextLine();
+                    contactNumber = Integer.parseInt(in.nextLine());
                     System.out.print("ID Siswa: ");
                     stdId = Integer.parseInt(in.nextLine());
                     Student student = new Student(name, password, email, address, contactNumber, stdId);
