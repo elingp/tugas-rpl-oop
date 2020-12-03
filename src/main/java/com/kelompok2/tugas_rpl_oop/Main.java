@@ -1,6 +1,7 @@
 package com.kelompok2.tugas_rpl_oop;
-import java.lang.reflect.Array;
+
 import java.util.*;
+
 /**
  * @author Caesar Rio Anggina Toruan (185250207111034)
  * @author Hamdani Al-Ikhsan (185150201111061)
@@ -44,7 +45,6 @@ public class Main {
         user4.setContactNumber("08135552126");
         user4.setStdId(11114);
 
-
         System.out.println("Halo dunia!");
         System.out.println(user1.getName());
         System.out.println(user1.getEmail());
@@ -52,9 +52,6 @@ public class Main {
         System.out.println(user1.getAddress());
         System.out.println(user1.getContactNumber());
         System.out.println(user1.getStaffId());
-
-
-
     }
 
 }
