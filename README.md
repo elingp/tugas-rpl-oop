@@ -1,4 +1,4 @@
-# Welcome to tugas-rpl-oop 👋
+# Tugas RPL OOP
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Implementasi pemrograman berbasis objek (PBO) dari studi kasus mata kuliah Rekayasa Perangkat Lunak.
